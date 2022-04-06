@@ -13,7 +13,12 @@ mongodb://localhost:27017/entriesdb
 ## Configurar las variables de entrono
 Renombrar el archivo __.env.template__ a __.env__
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+* Reconstruir los modulos de node y levantar Next
+llenara la bd
+```
+yarn install
+yarn dev
+```
 
 ## Getting Started
 

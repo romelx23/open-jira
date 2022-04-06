@@ -7,7 +7,7 @@ interface Props {
 }
 export const Layout: FC<Props> = ({ title = 'OpenJira',children }) => {
     return (
-        <Box sx={{ flexFlow: 1 }}>
+        <Box sx={{ flexFlow: 1,minHeight:'100vh' }}>
             <Head>
                 <title>{title}</title>
             </Head>

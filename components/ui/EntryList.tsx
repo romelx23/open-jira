@@ -22,12 +22,12 @@ export const EntryList: FC<Props> = ({ status }) => {
     // console.log(entryId)
     const entry = entries.find(entry => entry._id === entryId)!;
     // entry.status=status;
-    updateEntry({...entry,status})
+    updateEntry({...entry,status},true)
     // {
     //     ...entry,
     //     status:status,
     // }
-    console.log('ondrop')
+    // console.log('ondrop')
     endDragging();
   }
 
